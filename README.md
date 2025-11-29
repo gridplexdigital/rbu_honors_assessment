@@ -1,6 +1,6 @@
 # 🚀 DevOps & Backend Challenge: Legacy Migration
 
-**Time Limit:** 3 Hours
+**Submission Deadline:** 12pm. Nov 30, 2025.
 **Total Score:** 100
 
 ## 📝 Scenario
@@ -53,16 +53,22 @@ Create a web server (running on `localhost:8000`) with the following endpoints:
 
   * Expose your local Nginx server to the public internet securely.
   * Use **ngrok**, **Cloudflare Tunnel**, or a similar tool.
-  * **Deliverable:** A public URL (e.g., `https://xyz.ngrok.io/api/products`) that serves your API.
+  * **Deliverables:** A public URL (e.g., `https://xyz.ngrok.io/api/products`) that serves your API.
 
------
+### 6\. Submission Requirements
 
-## 📤 Submission Guidelines
+  * Create a github repo of your submission. Make it publicly available.
+  * Email the link to your repo to **gridplexdigital@gmail.com**. Subject of email must have your name and roll number.
+  * Please create a folder named `screenshots/` in your repo for images. 
+**Failure to provide these may result in a deduction of marks.**
 
-1.  **Code:** detailed `server` code and `migration` scripts.
-2.  **Config:** Include your Nginx configuration file (usually in `/etc/nginx/sites-available`).
-3.  **Service:** Include your systemd unit file (usually in `/etc/systemd/system`).
-4.  **Live Link:** Provide the active tunneling URL.
+   1.  **`db_proof.png`**: A terminal screenshot running a SQL query that JOINs the `products` and `categories` tables to show data was migrated successfully.
+   2.  **`logic_proof.png`**: A `curl` or Postman screenshot of a POST request to `/api/order` showing the calculated total price.
+   4.  **`service_status.png`**: A screenshot of `systemctl status your-service`.
+   5.  **`browser_proof.png`**: A screenshot of your web browser visiting your public (ngrok/tunnel) URL.
+   6.  **Code:** detailed `server` code and `migration` scripts.
+   7.  **Config:** Include your Nginx configuration file (usually in `/etc/nginx/sites-available`).
+   8.  **Live Link:** Provide a screenshot of Postman/cURL usage with the live link using ngrok or similar.
 
 **Good Luck\!**
 
