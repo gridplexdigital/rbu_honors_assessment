@@ -15,7 +15,7 @@ We have a legacy inventory script that currently stores data in a static JSON fi
 
 ## 📂 Repository Contents
 
-  * `inventory.json`: Current static data.
+  * `inventory.json` and `categories.json`: Current static data.
   * `lib.py`: Contains critical business logic for pricing. **You must use this.**
 
 -----
